@@ -1,4 +1,4 @@
-.. _eth-personal:
+800.. _eth-personal:
 
 ========
 web3.eth.personal
@@ -433,6 +433,7 @@ Example
 
 
 .. code-block:: javascript
+web3.eth.personal.newAccount(password, [callback])
 
     web3.eth.personal.importRawKey("cd3376bb711cb332ee3fb2ca04c6a8b9f70c316fcdf7a1f44ef4c7999483295e", "password1234")
     .then(console.log);
